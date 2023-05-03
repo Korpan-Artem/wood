@@ -2191,7 +2191,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .catalog-image {
-  width: 200px;
   height: 200px;
   background: url(../img/header-bg.jpeg) no-repeat center center;
   background-size: contain;
@@ -2201,6 +2200,7 @@ h1, h2, h3, h4, h5, h6 {
 .sigle-service h4 {
   margin-top: 10px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .sigle-service p {
