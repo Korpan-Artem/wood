@@ -61,7 +61,6 @@ body {
 ol, ul {
   margin: 0;
   padding: 0;
-  list-style: none;
 }
 
 select {
@@ -1927,7 +1926,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .section-gap {
-  padding: 120px 0;
+  padding: 30px 0;
 }
 
 .section-title {
@@ -2026,15 +2025,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .primary-btn2 {
-  color: #000;
+  color: #fff;
   font-weight: 600;
-  border: 1px solid #f4f4f4;
+  border: 1px solid #000;
   padding: 8px 35px;
   border-radius: 20px;
+  background-color: #000;
 }
 
 .primary-btn2:hover {
-  color: #fff;
+  color: #000;
+  background-color: #fff;
 }
 
 .pbtn-2 {
@@ -2190,11 +2191,16 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease 0s;
 }
 
-.catalog-image {
+.catalog-image-1 {
   height: 200px;
-  background: url(../img/header-bg.jpeg) no-repeat center center;
-  background-size: contain;
-  object-fit: contain;
+  background: url(../img/drova1.jpeg) no-repeat center center;
+  background-size: cover;
+}
+
+.catalog-image-2 {
+  height: 200px;
+  background: url(../img/drova2.jpeg) no-repeat center center;
+  background-size: cover;
 }
 
 .sigle-service h4 {
@@ -2607,7 +2613,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer-area {
-  padding-top: 100px;
   background-color: #222222;
 }
 
