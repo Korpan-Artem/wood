@@ -2400,7 +2400,8 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 800px) {
   .skill-left {
-    text-align: center;
+    text-align: left;
+    padding: 0 30px;
   }
 }
 
