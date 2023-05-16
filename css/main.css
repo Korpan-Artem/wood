@@ -2203,6 +2203,18 @@ h1, h2, h3, h4, h5, h6 {
   background-size: cover;
 }
 
+.catalog-image-3 {
+  height: 200px;
+  background: url(../img/drova3.jpeg) no-repeat center center;
+  background-size: cover;
+}
+
+.catalog-image-4 {
+  height: 200px;
+  background: url(../img/drova4.jpeg) no-repeat center center;
+  background-size: cover;
+}
+
 .sigle-service h4 {
   margin-top: 10px;
   margin-bottom: 10px;
